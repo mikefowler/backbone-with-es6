@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Backbone with ES6</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="app/styles/main.css">
+</head>
+<body>
+
+  <div id="app"></div>
+  
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+  <script src="bower_components/traceur/traceur.js"></script>
+  <script src="bower_components/es6-module-loader/dist/es6-module-loader.js"></script>
+  <script>System.import('app/scripts/main')</script>
+
+  <script type="text/template" name="home">
+    <h1>Home</h1>
+    <a href="#resources">Go to “Resources”</a>
+  </script>
+
+  <script type="text/template" name="resources">
+    <h1>Resources</h1>
+    <a href="#">Go to back to “Home”</a>
+  </script>
+
+</body>
+</html>
