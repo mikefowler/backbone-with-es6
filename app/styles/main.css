@@ -6,6 +6,7 @@ body {
   background: #7FDBFF;
   padding: 4em 1em;
   text-align: center;
+  line-height: 1.4;
 }
 
 h1 {
@@ -17,4 +18,12 @@ h1 {
 
 a, a:visited {
   color: #001F3F;
+}
+
+.info {
+  width: 20em;
+  margin: 2em auto 0;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.15);
+  text-align: left;
 }
